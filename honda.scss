@@ -1,0 +1,78 @@
+html {
+    body {
+        width: 100%;
+        margin: 0 0 0 0;
+        h1 {
+            padding-top: 50px;
+        }
+        td,
+        p {
+            text-align: center;
+        }
+        .navbar {
+            padding: 4px 25px 4px 10px;
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            img {
+                height: 50px;
+                float: left;
+            }
+            .navbar-right li a {
+                padding-left: 25px;
+                padding-right: 25px;
+            }
+        }
+        .navbar-title {
+            padding: 15px 15px 15px 15px;
+            color: #ffffff;
+        }
+        .myJumbotron {
+            padding: 0;
+            background-color: #2980b9;
+            padding-bottom: 7px;
+            h1 {
+                font-family: 'Overlock', cursive;
+                margin-left: 0;
+                text-align: center;
+                font-size: 96px;
+                font-weight: bolder;
+            }
+            h2 {
+                color: #ffffff;
+                font-family: 'Fredoka One', cursive;
+                padding-left: 20px;    
+                font-size: 28px;
+                margin: 0;
+            }
+            h3 {
+                font-family: 'Voces', cursive;
+                font-size: 18px;
+                padding: 7px 0 7px 40px;
+                margin: 0;
+                font-weight: bold;
+                .white {
+                    color: white;    
+                }
+            }
+            img {
+                padding: 10px 25px 5px 25px;
+                height: 400px;
+            }
+        }
+        .footer {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #000000;
+            p {
+                margin-bottom: 0;
+                font-family: "Comic Sans MS", cursive, sans-serif;
+                color: #ffffff;
+            }
+        }
+    }
+}

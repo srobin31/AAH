@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Coda' rel='stylesheet' type='text/css'>
+    <script src="jquery-1.11.2.js"></script>
+    <script src="typed.js-master/js/typed.js"></script>
+    <script>
+        $(function () {
+            $(".typed").typed({
+                strings: ["Soccer Players"],
+                typeSpeed: 100,
+                loop: false
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="home.css">
+    <title>Favorite Soccer Players</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <a href="index.html">
+            <ul class="nav navbar-nav">
+                <li><img src="soccer_ball.png">
+                </li>
+                <li class="navbar-title">Home</li>
+            </ul>
+        </a>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="honda.html">Keisuke Honda</a>
+            </li>
+            <li><a href="messi.html">Lionel Messi</a>
+            </li>
+            <li><a href="ronaldo.html">Christiano Ronaldo</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="jumbotron">
+        <h2 class="title">Creating Cool Websites:</h2>
+        <h1 class="typed"></h1>
+    </div>
+
+    <div class="col-xs-4 honda preview-box">
+        <div class="row">
+            <h2>Keisuke Honda</h2>
+        </div>
+        <div class="row">
+            <a href="honda.html">
+                <button type="button">Learn More</button>
+            </a>
+        </div>
+        <div class="row">
+            <img src="">
+        </div>
+    </div>
+
+    <div class="col-xs-4 messi preview-box">
+        <div class="row">
+            <h2>Lionel Messi</h2>
+        </div>
+        <div class="row">
+            <a href="messi.html">
+                <button type="button">Learn More</button>
+            </a>
+        </div>
+        <div class="row">
+            <img src="">
+        </div>
+    </div>
+
+    <div class="col-xs-4 ronaldo preview-box">
+        <div class="row">
+            <h2>Christiano Ronaldo</h2>
+        </div>
+        <div class="row">
+            <a href="ronaldo.html">
+                <button type="button">Learn More</button>
+            </a>
+        </div>
+        <div class="row">
+            <img src="">
+        </div>
+    </div>
+    <div class="footer">
+        <p>Academy After Hours 2015: Creating Cool Websites</p>
+    </div>
+</body>
+
+</html>
